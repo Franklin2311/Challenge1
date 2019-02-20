@@ -27,7 +27,8 @@ body{
     margin-bottom: 10px;
     margin-right: auto; 
     margin-left: auto;
-}
+  }
+
   .container {
     flex-wrap: wrap;
     display: flex;
@@ -56,7 +57,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .passenger {
@@ -68,11 +68,10 @@ body{
     display: flex;
   }
 
-#fuel_chart {
+ #fuel_chart {
   width: 50%;
 }
   
-
   #chart_passenger {
     height: 150%;
     width: 150%;
@@ -107,8 +106,7 @@ body{
 
     #chart_stock, #chart_passenger {
       width: 100%;
-    }
-      
+    }     
   }
   
   @media screen and (min-width: 1024px) and (max-width: 1440px) { /*vanaf desktop */
